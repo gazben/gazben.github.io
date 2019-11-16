@@ -20,6 +20,12 @@
         </a>
       </div>
     {% endif %}
+    <div class="{{ metadata_styles }}">
+      <img class="mr-2 v-align-middle" height="20" width="20" src="https://ghost.org/images/icon.svg" alt="gazben blog">
+      <a href="https://blog.gazben.com" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        blog
+      </a>
+    </div>
     {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
