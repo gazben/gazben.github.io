@@ -49,7 +49,7 @@ social_media:
 topics:
   - name: Laravel
     web_url: https://laravel.com/
-    image_url: https://laravel.com/img/logotype.min.svg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg
 
   - name: Ethereum
     web_url: https://ethereum.org/
