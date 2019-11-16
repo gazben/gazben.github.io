@@ -47,8 +47,12 @@
         {% endfor %}
       </div>
     {% endif %}
-    {% if user.hireable %}
-      <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
-    {% endif %}
+
+    <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+      I'm mainly interested in general algorithm development, and code optimization in C++.
+      <br> 
+      But, if you are looking for someone who can create general purpose web applications, you are also in the right place.
+      Contact me @: <a href="mailto:info@apicore.de">info@apicore.de</a> 
+    </p>
   </div>
 {% endif %}
